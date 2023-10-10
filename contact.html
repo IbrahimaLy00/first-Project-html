@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
 
-<body>
+<body class="contactbody">
 
     <h1>Coordonnées</h1>
-
-    <P>Ibrahima Ly</P>
-
-    <p>+1-438-875-1937</p>
-
-    <p>ibou8609@gmail.com</p>
+    <div class="parainfo"><P>Salut, je suis Ibrahima Ly, un étudiant en informatique de 23 ans, passionné par la technologie et déterminé à faire
+        progresser mes compétences pour contribuer de manière significative à l'industrie de l'informatique. Je suis ouvert
+        à de
+        nouvelles opportunités de collaboration et d'apprentissage, et je suis impatient de contribuer à l'avenir de la
+        technologie. Merci de prendre le temps de me connaître un peu mieux !</P></div>    
 
     <form action="u1preoject.html" method="post">
-
-        <label>votre nom</label>
-        <input type="text"><br>
+        <label for="emailAddress">Votre adresse mail</label><br />
+        <input type="email" placeholder="nomutilisateur@beststartupever.com" size="35" ><br>
+        <label>votre avis?</label><br>
+        <textarea id="message" cols="50" rows="8" required placeholder="votre projet est.......ect."></textarea><br>
         <label>Voulez vous me rejoindre dans mes projet?</label>
         <input type="checkbox">
-        <input type="submit">
+        <input type="submit"><br>
+        <label for="email">Vous pouvez me joindre par mail <a href="mailto:ibou8609@gmail.com">ici</a></label>
     </form>
 </body>
 

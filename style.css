@@ -1,0 +1,63 @@
+   img {
+            display: block;
+            margin: 0px auto;
+          
+        }
+        .contactbody{
+            background-color: aqua;
+        }
+        body {
+            margin: 11px 110px 110px 110px;
+            
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px ;
+            padding: 50px;
+            
+        }
+        pre{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px ;
+            padding: 50px;
+            margin:-50px 110px 110px 110px 
+           
+        }
+        #intro{
+            margin-left: 176px;
+            line-height: 2em;
+        }
+        .I{
+            margin-left: 176px;
+            line-height: 2em;
+        }
+        .II{
+            margin-left: 176px;
+            line-height: 2em;
+        }
+        .III{
+            margin-left: 176px;
+            line-height: 2em;
+        }
+        .IV{
+            margin-left: 176px;
+            line-height: -2em;
+        }
+        .CONCLUSION{
+            margin-left: 176px;
+            line-height: -4em;
+        }
+        .paracon{
+            line-height: -2em;
+        }
+        .paraI{
+            line-height: -2em;
+        }
+        .intro{
+            line-height: -2em;
+        }
+        .infos{
+            background-color:aqua;
+            line-height: 4em;
+        }
+        .parainfo{
+             padding: 50px;
+        }
